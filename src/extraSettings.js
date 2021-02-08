@@ -19,7 +19,7 @@ const minRandomFruitNum = reverseLevelUp ? 6 : 6; // 生成随机水果最小值
 const maxRandomFruitNum = reverseLevelUp ? 11 : 11; // 生成随机水果最大值（1-11）0 为葡萄，9 为半个西瓜
 let setFruits = {
   // 指定前几次生成的水果，可填入任意数量的数字，0 为葡萄，9 为半个西瓜
-  startFruits: reverseLevelUp ? [10, 10, 9, 8, 8, 7] : [0, 0, 1, 2, 2, 3],
+  startFruits: reverseLevelUp ? [10, 10, 9, 8, 8, 7] : [8, 7, 7, 6, 8, 6],
   randomFunction: () => {
     return minRandomFruitNum + Math.floor(Math.random() * (maxRandomFruitNum - minRandomFruitNum));
   }
@@ -32,13 +32,13 @@ let fruitQTan = false;
 let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
-let clickChangeFruit = true;
+let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
 let adLink = false;
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '냥말즈 거꾸로 수박게임';
+document.getElementsByTagName("title")[0].innerText = '🐱냥말즈🐶 !!거꾸로!! 수박게임';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
