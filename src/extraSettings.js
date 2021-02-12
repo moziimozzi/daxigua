@@ -3,10 +3,10 @@
  */
 
 // 额外分数：修改数字
-let extraScore = 1;
+let extraScore = 5;
 
 // 无敌模式：true 改为 false
-let wuDi = true;
+let wuDi = false;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -32,13 +32,13 @@ let fruitQTan = false;
 let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
-let clickChangeFruit = true;
+let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
 let adLink = 'https://twitter.com/onfmozzi';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大西瓜';
+document.getElementsByTagName("title")[0].innerText = '제이어스 탱탱볼 수박게임';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
