@@ -3,10 +3,10 @@
  */
 
 // 额外分数：修改数字
-let extraScore = 5;
+let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = false;
+let wuDi = true;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
