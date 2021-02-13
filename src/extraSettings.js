@@ -26,7 +26,7 @@ let setFruits = {
 }
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
-let fruitQTan = 0.95;
+let fruitQTan = 0.9;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
 let fruitSlowDown = false;
@@ -35,7 +35,7 @@ let fruitSlowDown = false;
 let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://twitter.com/wm_on7off/status/1359155095787692032';
+let adLink = 'https://twitter.com/wm_on7off/status/1360604839793754112';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '🐶제이어스🐶 탱탱볼 수박게임🍉';
