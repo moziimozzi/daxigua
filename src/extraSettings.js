@@ -3,7 +3,7 @@
  */
 
 // 额外分数：修改数字
-let extraScore = 5;
+let extraScore = 2;
 
 // 无敌模式：true 改为 false
 let wuDi = true;
