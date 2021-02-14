@@ -6,7 +6,7 @@
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = true;
+let wuDi = false;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -35,10 +35,10 @@ let fruitSlowDown = false;
 let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://twitter.com/wm_on7off/status/1360604839793754112';
+let adLink = 'https://twitter.com/WM_ONOFF/status/1359725577444290562';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '🐶제이어스🐶 탱탱볼 수박게임🍉';
+document.getElementsByTagName("title")[0].innerText = '🐶제이어스🐶 무한 탱탱볼 수박게임🍉';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
