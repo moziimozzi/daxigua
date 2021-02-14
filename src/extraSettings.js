@@ -35,7 +35,7 @@ let fruitSlowDown = false;
 let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://twitter.com/wm_on7off/status/1360604839793754112';
+let adLink = 'https://youtu.be/N_UPVom1brI';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '🐶제이어스🐶 탱탱볼 수박게임🍉';
